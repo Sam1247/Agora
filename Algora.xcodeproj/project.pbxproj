@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2009156D241119B400856006 /* DetailSmallICon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2009156C241119B400856006 /* DetailSmallICon.swift */; };
+		20107555241E8343005C7EC5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20107554241E8343005C7EC5 /* Result.swift */; };
+		201DB2CB241D6BE40077011C /* FinishedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201DB2CA241D6BE40077011C /* FinishedList.swift */; };
+		20270462241CFB5C005CACED /* VotingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20270461241CFB5C005CACED /* VotingAlgorithm.swift */; };
+		20270464241D0E5A005CACED /* AddVoters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20270463241D0E5A005CACED /* AddVoters.swift */; };
+		20347BC9241E52EB0014A0CB /* Ballout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20347BC8241E52EB0014A0CB /* Ballout1.swift */; };
+		20347BCC241E55EA0014A0CB /* CandidatePlusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20347BCB241E55EA0014A0CB /* CandidatePlusCell.swift */; };
+		203F1A9C24197E190088C4FE /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F1A9B24197E190088C4FE /* Login.swift */; };
+		203F1A9E241995DA0088C4FE /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F1A9D241995DA0088C4FE /* SignUp.swift */; };
+		2041206824101AE0000F8D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041206724101AE0000F8D23 /* AppDelegate.swift */; };
+		2041206A24101AE0000F8D23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041206924101AE0000F8D23 /* SceneDelegate.swift */; };
+		2041206C24101AE0000F8D23 /* DashboardMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041206B24101AE0000F8D23 /* DashboardMainCell.swift */; };
+		2041206E24101AE6000F8D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2041206D24101AE6000F8D23 /* Assets.xcassets */; };
+		2041207124101AE6000F8D23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2041207024101AE6000F8D23 /* Preview Assets.xcassets */; };
+		2041207424101AE6000F8D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2041207224101AE6000F8D23 /* LaunchScreen.storyboard */; };
+		2041209E241038EB000F8D23 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041209D241038EB000F8D23 /* Dashboard.swift */; };
+		20452DF824205171004B5FB4 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20452DF724205171004B5FB4 /* Main.swift */; };
+		20452DFA242052FF004B5FB4 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20452DF9242052FF004B5FB4 /* Contact.swift */; };
+		20452DFC2420530A004B5FB4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20452DFB2420530A004B5FB4 /* Profile.swift */; };
+		2071496A2418FD8A00C31FD2 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207149692418FD8A00C31FD2 /* SplashScreen.swift */; };
+		2082B9D5241E654500238E5B /* Ballot2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2082B9D4241E654500238E5B /* Ballot2.swift */; };
+		2082B9D7241E6DC600238E5B /* Ballot3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2082B9D6241E6DC600238E5B /* Ballot3.swift */; };
+		2095581E241D713000140E71 /* PendingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095581D241D713000140E71 /* PendingList.swift */; };
+		20955820241D722200140E71 /* AllList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095581F241D722200140E71 /* AllList.swift */; };
+		20B86D5C2410857A00D03AF7 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B86D5B2410857A00D03AF7 /* Detail.swift */; };
+		20C4A9E52419A78900F6A293 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4A9E42419A78900F6A293 /* ForgotPassword.swift */; };
+		20D89D3C241A30D4003CEA6E /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D89D3B241A30D4003CEA6E /* ResetPassword.swift */; };
+		20D89D3E241A5E95003CEA6E /* CreateElection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D89D3D241A5E95003CEA6E /* CreateElection.swift */; };
+		20D89D40241A7044003CEA6E /* AddingCandidates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D89D3F241A7044003CEA6E /* AddingCandidates.swift */; };
+		20EAEE4E2410EA2B00C9DB53 /* Election.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAEE4D2410EA2B00C9DB53 /* Election.swift */; };
+		20EAEE502410ED1B00C9DB53 /* ElectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAEE4F2410ED1B00C9DB53 /* ElectionCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2009156C241119B400856006 /* DetailSmallICon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSmallICon.swift; sourceTree = "<group>"; };
+		20107554241E8343005C7EC5 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		201DB2CA241D6BE40077011C /* FinishedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedList.swift; sourceTree = "<group>"; };
+		20270461241CFB5C005CACED /* VotingAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingAlgorithm.swift; sourceTree = "<group>"; };
+		20270463241D0E5A005CACED /* AddVoters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVoters.swift; sourceTree = "<group>"; };
+		20347BC8241E52EB0014A0CB /* Ballout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ballout1.swift; sourceTree = "<group>"; };
+		20347BCB241E55EA0014A0CB /* CandidatePlusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatePlusCell.swift; sourceTree = "<group>"; };
+		203F1A9B24197E190088C4FE /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		203F1A9D241995DA0088C4FE /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		2041206424101AE0000F8D23 /* Algora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2041206724101AE0000F8D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2041206924101AE0000F8D23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2041206B24101AE0000F8D23 /* DashboardMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMainCell.swift; sourceTree = "<group>"; };
+		2041206D24101AE6000F8D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2041207024101AE6000F8D23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2041207324101AE6000F8D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2041207524101AE6000F8D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2041209D241038EB000F8D23 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		20452DF724205171004B5FB4 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		20452DF9242052FF004B5FB4 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		20452DFB2420530A004B5FB4 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		207149692418FD8A00C31FD2 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		2082B9D4241E654500238E5B /* Ballot2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ballot2.swift; sourceTree = "<group>"; };
+		2082B9D6241E6DC600238E5B /* Ballot3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ballot3.swift; sourceTree = "<group>"; };
+		2095581D241D713000140E71 /* PendingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingList.swift; sourceTree = "<group>"; };
+		2095581F241D722200140E71 /* AllList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllList.swift; sourceTree = "<group>"; };
+		20B86D5B2410857A00D03AF7 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		20C4A9E42419A78900F6A293 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		20D89D3B241A30D4003CEA6E /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		20D89D3D241A5E95003CEA6E /* CreateElection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateElection.swift; sourceTree = "<group>"; };
+		20D89D3F241A7044003CEA6E /* AddingCandidates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCandidates.swift; sourceTree = "<group>"; };
+		20EAEE4D2410EA2B00C9DB53 /* Election.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Election.swift; sourceTree = "<group>"; };
+		20EAEE4F2410ED1B00C9DB53 /* ElectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectionCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2041206124101AE0000F8D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20107553241E8332005C7EC5 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				20107554241E8343005C7EC5 /* Result.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		20347BCA241E55810014A0CB /* Ballot */ = {
+			isa = PBXGroup;
+			children = (
+				20347BC8241E52EB0014A0CB /* Ballout1.swift */,
+				2082B9D6241E6DC600238E5B /* Ballot3.swift */,
+				2082B9D4241E654500238E5B /* Ballot2.swift */,
+				20347BCB241E55EA0014A0CB /* CandidatePlusCell.swift */,
+			);
+			path = Ballot;
+			sourceTree = "<group>";
+		};
+		2041205B24101AE0000F8D23 = {
+			isa = PBXGroup;
+			children = (
+				2041206624101AE0000F8D23 /* Algora */,
+				2041206524101AE0000F8D23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2041206524101AE0000F8D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2041206424101AE0000F8D23 /* Algora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2041206624101AE0000F8D23 /* Algora */ = {
+			isa = PBXGroup;
+			children = (
+				20EAEE4C2410EA1E00C9DB53 /* Model */,
+				2041206724101AE0000F8D23 /* AppDelegate.swift */,
+				20107553241E8332005C7EC5 /* Result */,
+				20347BCA241E55810014A0CB /* Ballot */,
+				2041206924101AE0000F8D23 /* SceneDelegate.swift */,
+				2041209D241038EB000F8D23 /* Dashboard.swift */,
+				20EAEE4F2410ED1B00C9DB53 /* ElectionCell.swift */,
+				20D89D3B241A30D4003CEA6E /* ResetPassword.swift */,
+				20B86D5B2410857A00D03AF7 /* Detail.swift */,
+				20D89D3F241A7044003CEA6E /* AddingCandidates.swift */,
+				20270461241CFB5C005CACED /* VotingAlgorithm.swift */,
+				207149692418FD8A00C31FD2 /* SplashScreen.swift */,
+				20452DF724205171004B5FB4 /* Main.swift */,
+				20C4A9E42419A78900F6A293 /* ForgotPassword.swift */,
+				203F1A9B24197E190088C4FE /* Login.swift */,
+				20270463241D0E5A005CACED /* AddVoters.swift */,
+				20D89D3D241A5E95003CEA6E /* CreateElection.swift */,
+				201DB2CA241D6BE40077011C /* FinishedList.swift */,
+				2095581F241D722200140E71 /* AllList.swift */,
+				2095581D241D713000140E71 /* PendingList.swift */,
+				20452DF9242052FF004B5FB4 /* Contact.swift */,
+				20452DFB2420530A004B5FB4 /* Profile.swift */,
+				203F1A9D241995DA0088C4FE /* SignUp.swift */,
+				2009156C241119B400856006 /* DetailSmallICon.swift */,
+				2041206B24101AE0000F8D23 /* DashboardMainCell.swift */,
+				2041206D24101AE6000F8D23 /* Assets.xcassets */,
+				2041207224101AE6000F8D23 /* LaunchScreen.storyboard */,
+				2041207524101AE6000F8D23 /* Info.plist */,
+				2041206F24101AE6000F8D23 /* Preview Content */,
+			);
+			path = Algora;
+			sourceTree = "<group>";
+		};
+		2041206F24101AE6000F8D23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2041207024101AE6000F8D23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20EAEE4C2410EA1E00C9DB53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20EAEE4D2410EA2B00C9DB53 /* Election.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2041206324101AE0000F8D23 /* Algora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2041207824101AE6000F8D23 /* Build configuration list for PBXNativeTarget "Algora" */;
+			buildPhases = (
+				2041206024101AE0000F8D23 /* Sources */,
+				2041206124101AE0000F8D23 /* Frameworks */,
+				2041206224101AE0000F8D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algora;
+			productName = Algora;
+			productReference = 2041206424101AE0000F8D23 /* Algora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2041205C24101AE0000F8D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Dumbies;
+				TargetAttributes = {
+					2041206324101AE0000F8D23 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2041205F24101AE0000F8D23 /* Build configuration list for PBXProject "Algora" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2041205B24101AE0000F8D23;
+			productRefGroup = 2041206524101AE0000F8D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2041206324101AE0000F8D23 /* Algora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2041206224101AE0000F8D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2041207424101AE6000F8D23 /* LaunchScreen.storyboard in Resources */,
+				2041207124101AE6000F8D23 /* Preview Assets.xcassets in Resources */,
+				2041206E24101AE6000F8D23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2041206024101AE0000F8D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20452DFA242052FF004B5FB4 /* Contact.swift in Sources */,
+				2041206824101AE0000F8D23 /* AppDelegate.swift in Sources */,
+				203F1A9E241995DA0088C4FE /* SignUp.swift in Sources */,
+				2082B9D5241E654500238E5B /* Ballot2.swift in Sources */,
+				2095581E241D713000140E71 /* PendingList.swift in Sources */,
+				20452DF824205171004B5FB4 /* Main.swift in Sources */,
+				20347BCC241E55EA0014A0CB /* CandidatePlusCell.swift in Sources */,
+				20B86D5C2410857A00D03AF7 /* Detail.swift in Sources */,
+				20107555241E8343005C7EC5 /* Result.swift in Sources */,
+				2071496A2418FD8A00C31FD2 /* SplashScreen.swift in Sources */,
+				20955820241D722200140E71 /* AllList.swift in Sources */,
+				20EAEE4E2410EA2B00C9DB53 /* Election.swift in Sources */,
+				20EAEE502410ED1B00C9DB53 /* ElectionCell.swift in Sources */,
+				20347BC9241E52EB0014A0CB /* Ballout1.swift in Sources */,
+				2041206A24101AE0000F8D23 /* SceneDelegate.swift in Sources */,
+				2009156D241119B400856006 /* DetailSmallICon.swift in Sources */,
+				20D89D3C241A30D4003CEA6E /* ResetPassword.swift in Sources */,
+				20452DFC2420530A004B5FB4 /* Profile.swift in Sources */,
+				2041209E241038EB000F8D23 /* Dashboard.swift in Sources */,
+				20D89D3E241A5E95003CEA6E /* CreateElection.swift in Sources */,
+				20D89D40241A7044003CEA6E /* AddingCandidates.swift in Sources */,
+				2082B9D7241E6DC600238E5B /* Ballot3.swift in Sources */,
+				203F1A9C24197E190088C4FE /* Login.swift in Sources */,
+				201DB2CB241D6BE40077011C /* FinishedList.swift in Sources */,
+				2041206C24101AE0000F8D23 /* DashboardMainCell.swift in Sources */,
+				20270464241D0E5A005CACED /* AddVoters.swift in Sources */,
+				20270462241CFB5C005CACED /* VotingAlgorithm.swift in Sources */,
+				20C4A9E52419A78900F6A293 /* ForgotPassword.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2041207224101AE6000F8D23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2041207324101AE6000F8D23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2041207624101AE6000F8D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2041207724101AE6000F8D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2041207924101AE6000F8D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Algora/Preview Content\"";
+				DEVELOPMENT_TEAM = 8B4ZHW4G93;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Algora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dumbies.Algora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2041207A24101AE6000F8D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Algora/Preview Content\"";
+				DEVELOPMENT_TEAM = 8B4ZHW4G93;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Algora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dumbies.Algora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2041205F24101AE0000F8D23 /* Build configuration list for PBXProject "Algora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2041207624101AE6000F8D23 /* Debug */,
+				2041207724101AE6000F8D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2041207824101AE6000F8D23 /* Build configuration list for PBXNativeTarget "Algora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2041207924101AE6000F8D23 /* Debug */,
+				2041207A24101AE6000F8D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2041205C24101AE0000F8D23 /* Project object */;
+}
