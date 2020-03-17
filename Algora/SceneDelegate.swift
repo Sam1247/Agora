@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = Dashboard()
+        let contentView = ForgotPassword()
         //DashboardMainCell(iconName: "calendar.circle.fill", status: "Today", count: 2, iconColor: Color.white)
 
         // Use a UIHostingController as window root view controller.
