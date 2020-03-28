@@ -28,7 +28,7 @@ struct Main: View {
             
             Contact().tabItem {
                 VStack {
-                    Image(systemName: "envelope")
+                    Image(systemName: "envelope.fill")
                     .font(.system(size: 20))
                     Text("Contact")
                 }
@@ -36,7 +36,7 @@ struct Main: View {
             
             Profile().tabItem {
                 VStack {
-                    Image(systemName: "person.fill")
+                    Image(systemName: "person")
                     .font(.system(size: 20))
                     Text("Profile")
                 }

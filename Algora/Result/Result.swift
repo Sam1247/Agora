@@ -53,7 +53,7 @@ struct BarView: View {
                 .foregroundColor(Color.init(.tertiarySystemBackground))
             Capsule()
             .frame(width: score, height: 20)
-                .foregroundColor(Color.init(.systemGreen))
+                .foregroundColor(Color.init(.systemYellow))
         }
     }
     
@@ -100,51 +100,3 @@ struct InfoCell: View {
     }
 }
 
-//VStack {
-//           HStack {
-//               Button(action: {
-//
-//               }) {
-//                   Text("Cancel")
-//               }
-//               Spacer()
-//           }.padding()
-//           Spacer()
-//           VStack {
-//               VStack(alignment: .leading) {
-//                   Text("Winner is")
-//                       .font(.system(size: 36))
-//                   Text("Samna 🎉")
-//                       .font(.system(size: 36))
-//                       .bold()
-//                       .foregroundColor(.green)
-//               }.padding(.bottom)
-//               VStack (alignment: .leading){
-//                   Text("Votes Info")
-//                       .font(.headline)
-//                       .padding(.bottom, 6)
-//                   HStack {
-//                       Text("Type:")
-//                       Spacer()
-//                       Text("Private")
-//                           .foregroundColor(.blue)
-//                   }.frame(width: 300)
-//                   HStack {
-//                       Text("Total Voters:")
-//                       Spacer()
-//                       Text("45")
-//                           .foregroundColor(.blue)
-//                   }.frame(width: 300)
-//                   HStack {
-//                       Text("Ballots Cast:")
-//                       Spacer()
-//                       Text("89483")
-//                           .foregroundColor(.blue)
-//                   }.frame(width: 300)
-//               }
-//           }
-//           .padding()
-//           .background(Color.init(.secondarySystemBackground))
-//           .cornerRadius(12)
-//           Spacer()
-//       }

@@ -27,8 +27,8 @@ struct Contact: View {
                         .foregroundColor(Color.init(.systemGray))
                         .padding()
                     
-                    AbstractButton(color: Color.init(.systemGreen), label: "AOSSIE'S GitLab")
-                     AbstractButton(color: Color.init(.systemGreen), label: "AOSSIE'S Gitter")
+                    AbstractButton(color: Color.init(.systemYellow), label: "AOSSIE'S GitLab")
+                    AbstractButton(color: Color.init(.systemGreen), label: "AOSSIE'S Gitter")
                     
                 }.padding()
             }
